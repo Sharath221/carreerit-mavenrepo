@@ -29,13 +29,13 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8081/nexus/repository/nexus/</url>
+            <url>http://13.92.87.170:8081/repository/syst-realase/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/nexus/repository/samplesnapshot/</url>
-        </snapshotRepository>
+            <url>http://13.92.87.170:8081/repository/systm-builts/</url>
+         </snapshotRepository>
     </distributionManagement>
   <dependencies>
   	<dependency>
